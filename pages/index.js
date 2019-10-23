@@ -43,6 +43,7 @@ const Home = () => {
           height: "100vh",
         }}
       >
+        <h1>Hello, World</h1>
         <img
           src="/static/dojoAfterDarkInauguralMeetupQR.png"
           alt="QR Code"
