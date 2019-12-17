@@ -1,0 +1,61 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  max-width: 1024px;
+  margin: auto;
+  padding: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+/* Global */
+blockquote {
+  padding: 1em;
+}
+
+/* Header */
+header > h1 {
+  text-align: center;
+  margin: 0.5em;
+}
+
+header > picture {
+  display: block;
+  text-align: center;
+}
+
+/* Main */
+main h2 {
+  text-align: center;
+}
+
+main .flex {
+  display: flex;
+  /* default */
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+main .podcast {
+  padding: 1em;
+  max-width: 19em;
+  background-color: beige;
+  margin: 0.5em;
+}
+
+main .podcast h3 {
+  text-align: center;
+}
+
+main .podcast p {
+  text-decoration: none;
+  margin-top: 0.5em;
+}

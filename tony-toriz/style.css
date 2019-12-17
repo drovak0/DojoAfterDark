@@ -1,0 +1,13 @@
+/* write css here */
+html {
+    background-color: #141d26;
+}
+
+.name {
+    color: #c51f5d;
+    text-align: center;
+}
+
+.text {
+    color: #acacad;
+}

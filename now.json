@@ -1,12 +1,6 @@
 {
   "version": 2,
   "name": "dojo-after-dark",
-  "builds": [
-    {
-      "src": "next.config.js",
-      "use": "@now/next"
-    }
-  ],
   "alias": ["dojoafterdark.com"],
   "github": {
     "enabled": true
