@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>Quang Nguyen</title>
+    <style>
+        body {
+            background-color: black;
+            background-image: url(wang.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .navbar {
+            position: fixed;
+            width: 100%;
+        }
+
+        .background-transparent {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .bgl-transparent {
+            background-color: rgba(0, 0, 0, 0.25);
+            border-style: none;
+        }
+
+        .h-full {
+            height: 100vh;
+        }
+    </style>
+    <script>
+        $(document).ready(function () {
+            $('.nav-link').click(function () {
+                $(this).scrollTop("-1000px");
+
+                console.log("scroll top");
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark background-transparent">
+        <a href="" class="navbar-brand font-weight-bold">#QDN</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">My Work</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Timeline</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contact & Collaboration</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid background-transparent">
+        <div class="row h-full align-items-center">
+            <div class="col text-center text-light">
+                <h1 class="font-weight-bold display-1">QUANG NGUYEN</h1>
+                <h2 class="font-weight-normal">iOS Developer | Web Developer</h2>
+                <ul class="list-inline mt-5 mb-0">
+                    <li class="list-inline-item">
+                        <button onclick="window.location.href = 'find-waldo.html';"
+                            class="btn btn-outline-light bgl-transparent rounded-0 py-2 px-4">Find Waldo =)</button>
+                    </li>
+                    <li class="list-inline-item">
+                        <button onclick="window.location.href = 'https://github.com/quangnguyen17';"
+                            class="btn btn-outline-light bgl-transparent rounded-0 py-2 px-4">GitHub</button>
+                    </li>
+                    <li class="list-inline-item">
+                        <button onclick="window.location.href = 'https://www.linkedin.com/in/quangnguyen2001/';"
+                            class="btn btn-outline-light bgl-transparent rounded-0 py-2 px-4">LinkedIn</button>
+                    </li>
+                    <li class="list-inline-item">
+                        <button onclick="window.location.href = 'https://www.instagram.com/quangd_nguyen/';"
+                            class="btn btn-outline-light bgl-transparent rounded-0 py-2 px-4">Instagram</button>
+                    </li>
+                    <li class="list-inline-item">
+                        <button onclick="window.location.href = 'https://twitter.com/Wangnguyen01';"
+                            class="btn btn-outline-light bgl-transparent rounded-0 py-2 px-4">Twitter</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
