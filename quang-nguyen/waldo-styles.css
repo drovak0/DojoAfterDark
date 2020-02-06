@@ -1,0 +1,54 @@
+.bg-waldo {
+    background-image: url('waldo.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 5vh;
+    height: 5vh;
+}
+
+.bg-blank {
+    background-color: white;
+    width: 5vh;
+    height: 5vh;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-custom-transparent {
+    background-color: rgba(50, 50, 50, 0.5);
+}
+
+.bg-dark-gray {
+    background-color: rgb(20, 20, 20);
+}
+
+.position-fixed {
+    position: fixed;
+    z-index: 5;
+}
+
+.h-full {
+    height: 100vh;
+}
+
+.w-70 {
+    width: 70%;
+}
+
+#waldo {
+    width: 100px;
+    height: 100px;
+}
+
+#github {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    -webkit-filter: invert(50%);
+    vertical-align: text-bottom;
+    margin-left: 4px;
+    font: italic;
+}

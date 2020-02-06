@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="waldo.js"></script>
+    <link rel="stylesheet" href="waldo-styles.css">
+    <title>Find Waldo</title>
+</head>
+
+<body class="bg-black">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-9 h-full d-inline-block p-0">
+                <div class="container-fluid bg-black d-inline-block m-0 p-0 game"></div>
+            </div>
+            <div class="col-3 w-25 bg-dark-gray h-full d-inline-block text-center p-5 text-light overflow-auto">
+                <h1 class="font-weight-bold mb-0">Find Waldo!</h1>
+                <img id="waldo" class="mt-4 mb-2" src="waldo.jpg" alt="">
+                <p>"Waldo: Find me."</p>
+                <h3 class="timer font-weight-light my-4">0s</h3>
+                <div class="btns">
+                    <button id="worst" class="btn btn-outline-danger rounded-0 score-button my-1">Worst</button>
+                    <button id="average" class="btn btn-outline-warning rounded-0 score-button my-1">Average</button>
+                    <button id="best" class="btn btn-outline-success rounded-0 score-button my-1">Best</button>
+                </div>
+                <table class="table table-striped text-light my-4">
+                    <thead>
+                        <tr>
+                            <th scope="col">Round</th>
+                            <th scope="col">Time</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+                <footer class="justify-content-center">
+                    <h6 class="mt-5 text-secondary">&copy;Quang Nguyen</h6>
+                    <a class="nav-link text-secondary font-italic border border-dark d-inline-block"
+                        href="https://github.com/quangnguyen17/find-waldo">View
+                        Instructions<br>&
+                        Source Code <img id="github" src="github.png" alt=""></a>
+                </footer>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
