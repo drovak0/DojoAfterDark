@@ -1,17 +1,25 @@
-# Blog Dojo After Dark
+# Dojo After Dark
+
+Community site where anyone can create a page and contribute to the project.
+
+## Links
+
+- [Live Site](https://dojoafterdark.com/)
+- [Repo](https://github.com/CBaut/DojoAfterDark)
+- [Project Board](https://github.com/CBaut/DojoAfterDark/projects/1)
+- Deployed automatically using GitHub and [Zeit](zeit.co).
 
 ## How to run the project locally
 
-- Make sure [Node Package Manager](https://nodejs.org/en/) is installed
-- Install the now cli globally using npm `npm i -g now`
-- Run the dev server in the project folder to work on changes `now dev`
+- open `index.html` in a browser
 
 ## How to create your own page
 
 - From the terminal `cd` into the folder you want to save the project
 - Clone the project `git clone https://github.com/CBaut/BlogDojoAfterDark.git`
-- Create a new local branch with the following convention `git checkout -b {{first_name}}-{{last_name}}`
-- Create your folder using the same convention `{{first_name}}-{{last_name}}`
+- `cd` into the newly created project folder (`ls` or `dir` to view the contents of the current directory)
+- Create a new local branch with the following convention `git checkout -b {{first_name}}-{{last_name}}` (replace the contents of `{{}}` including the brackets)
+- Create your folder in the project folder using the same convention `{{first_name}}-{{last_name}}`
 - Create an `index.html` and a `styles.css` in your folder (optionaly a js file)
 - Add a link `<a>` to your folder path on the homepage
 - Stage your changes `git add .`
@@ -21,4 +29,4 @@
 - Create a pull request from your branch to master branch
 - Get your code reviewed
 - Merge branch into master
-- If automated deployment is successful check the [website](https://blog.dojoafterdark.com/)
+- If automated deployment is successful check the [website](https://dojoafterdark.com/)
