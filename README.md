@@ -23,7 +23,7 @@ Community site where anyone can create a page and contribute to the project.
 - Create an `index.html` and a `styles.css` in your folder (optionaly a js file)
 - Add a link `<a>` to your folder path on the homepage
 - Stage your changes `git add .`
-- Commit your changes `git commit -m '{{commit message}}'`
+- Commit your changes `git commit -m "{{commit message}}"`
 - Request to be a contributor (ask CBaut to add you to the project by sending your github username)
 - Push your local changes to the github repository `git push`
 - Create a pull request from your branch to master branch
