@@ -16,7 +16,7 @@ Community site where anyone can create a page and contribute to the project.
 ## How to create your own page
 
 - From the terminal `cd` into the folder you want to save the project
-- Clone the project `git clone https://github.com/CBaut/BlogDojoAfterDark.git`
+- Clone the project `git clone https://github.com/CBaut/DojoAfterDark.git`
 - `cd` into the newly created project folder (`ls` or `dir` to view the contents of the current directory)
 - Create a new local branch with the following convention `git checkout -b {{first_name}}-{{last_name}}` (replace the contents of `{{}}` including the brackets)
 - Create your folder in the project folder using the same convention `{{first_name}}-{{last_name}}`
