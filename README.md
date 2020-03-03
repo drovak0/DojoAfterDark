@@ -1,6 +1,24 @@
 # Dojo After Dark
 
-Community site where anyone can create a page and contribute to the project.
+## Who are we?
+
+- Community of craftsmen and craftswomen
+
+## What do we do?
+
+- Collaborate on projects
+- Gain experience in the day to day life as a programmer
+- [Autodidacticism](https://en.wikipedia.org/wiki/Autodidacticism)
+
+## Projects
+
+- dojoafterdark.com (`this` community site)
+- lost.dojoafterdark.com (lost and found app)
+- kitchen.dojoafterdark.com (kitchen inventory app)
+
+## Slack Channel
+
+- #dojo_after_dark
 
 ## Links
 
@@ -8,10 +26,21 @@ Community site where anyone can create a page and contribute to the project.
 - [Repo](https://github.com/CBaut/DojoAfterDark)
 - [Project Board](https://github.com/CBaut/DojoAfterDark/projects/1)
 - Deployed automatically using GitHub and [Zeit](zeit.co).
+- [More git](https://github.com/TheCodingDojo/student_md_docs/blob/master/CA-OC/github/cheat_sheet.md)
+
+---
+
+## First timers
+
+- [ ] maintain a page on the community site
+
+## Returning
+
+- [ ] contribute to one of the projects
 
 ## How to run the project locally
 
-- open `index.html` in a browser
+- open `index.html` using live server
 
 ## How to create your own page
 
