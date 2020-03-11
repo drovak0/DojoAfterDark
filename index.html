@@ -5,38 +5,119 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link rel="stylesheet" href="./styles.css" />
+
   <script src="greeting.js"></script>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="./styles.css" />
+
   <title>Dojo After Dark</title>
 </head>
 
 <body>
-  <h1>
-    dojo<br />
-    after<br />
-    dark
-  </h1>
-  <div id="pages">
-    <h2>
-      Check us out on
-      <a href="https://github.com/CBaut/DojoAfterDark">GitHub</a>!
-    </h2>
-    <h2>Pages</h2>
-    <ul>
-      <li><a href="/chris-bautista">Chris Bautista</a></li>
-      <li><a href="/kat-dang/">Kathy Dang</a></li>
-      <li><a href="/francisco-zamora">Francisco Zamora</a></li>
-      <li><a href="/tony-toriz">Tony Toriz</a></li>
-      <li><a href="https://tanzil.dev/">Michelle Tanzil</a></li>
-      <li><a href="/bailey-varness/">Bailey Varness</a></li>
-      <li><a href="/alex-ege/">Alexander Ege</a></li>
-      <li><a href="/elias-arellano/">Elias Arellano</a></li>
-      <li><a href="/reed-crawley/">Reed Crawley</a></li>
-      <li><a href="/Hadee-Krad/">Hadee Hadee-Krad</a></li>
-      <li><a href="/quang-nguyen/">Quang Nguyen</a></li>
-      <li><a href="/gaku-sasaki/">Gaku Sasaki</a></li>
-      <li><a href="/faris-alahmad/">Faris Alahmad</a></li>
-    </ul>
+  <div class="container-fluid" id="container">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand">Dojo After Dark | Powered by Coding Dojo OC
+      </a>
+    </nav><!-- End Navbar -->
+
+    <!-- Carousel -->
+    <div id="carousel" class="carousel slide mt-2" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active bg-image">
+          <img class="d-block w-100 c-img p-3" src="before-iframe.JPG" alt="First slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Name Name</h5>
+            <p>Description Description</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100 c-img" src="before-iframe.JPG" alt="Second slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Name Name 2</h5>
+            <p>Description Description 2</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100 c-img" src="before-iframe.JPG" alt="Third slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Name Name 3</h5>
+            <p>Description Description 3</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- End Carousel -->
+
+    <!-- Logo -->
+    <div class="row">
+      <h1 id="logo" class="d-inline-block mx-auto p-5 mt-5">
+        dojo<br />
+        after<br />
+        dark
+      </h1><!-- End Logo -->
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small mt-5 py-3">
+      <!-- Github Line -->
+      <div class="row">
+        <div class="footer-copyright d-inline-block mx-auto">
+          <h2 class="text-muted">
+            Check us out on <a href="https://github.com/CBaut/DojoAfterDark">Github</a>!
+          </h2>
+        </div><!-- End Github -->
+      </div>
+      <!-- Footer Links -->
+      <!-- Future additions go here!!! -->
+      <div class="row">
+        <div class="col-md-6">
+          <ul class="list-unstyled">
+            <li><a href="/chris-bautista">Chris Bautista</a></li>
+            <li><a href="/kat-dang/">Kathy Dang</a></li>
+            <li><a href="/francisco-zamora">Francisco Zamora</a></li>
+            <li><a href="/tony-toriz">Tony Toriz</a></li>
+            <li><a href="https://tanzil.dev/">Michelle Tanzil</a></li>
+            <li><a href="/bailey-varness/">Bailey Varness</a></li>
+            <li><a href="/alex-ege/">Alexander Ege</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <ul class="list-unstyled">
+            <li><a href="/elias-arellano/">Elias Arellano</a></li>
+            <li><a href="/reed-crawley/">Reed Crawley</a></li>
+            <li><a href="/Hadee-Krad/">Hadee Hadee-Krad</a></li>
+            <li><a href="/quang-nguyen/">Quang Nguyen</a></li>
+            <li><a href="/gaku-sasaki/">Gaku Sasaki</a></li>
+            <li><a href="/faris-alahmad/">Faris Alahmad</a></li>
+          </ul>
+        </div>
+    </footer><!-- Links -->
   </div>
 </body>
 

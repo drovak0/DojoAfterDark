@@ -10,39 +10,39 @@
   --neon-border-color: #08f;
 }
 
-body {
+#container {
   font-family: "Exo 2", sans-serif;
-  display: flex;
+  /* display: flex; */
   flex-flow: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   background: #000;
   min-height: 100vh;
 }
 
-h1 {
-  font-size: 8rem;
+#logo {
+  font-size: 5rem;
   font-weight: 200;
   font-style: italic;
   color: #fff;
-  padding: 4rem 6rem 5.5rem;
+  /* padding: 4rem 6rem 5.5rem; */
   border: 0.4rem solid #fff;
   border-radius: 2rem;
   text-transform: uppercase;
   animation: flicker 1.5s infinite alternate;
 }
 
-h1::-moz-selection {
+#logo::-moz-selection {
   background-color: var(--neon-border-color);
   color: var(--neon-text-color);
 }
 
-h1::selection {
+#logo::selection {
   background-color: var(--neon-border-color);
   color: var(--neon-text-color);
 }
 
-h1:focus {
+#logo:focus {
   outline: none;
 }
 
@@ -74,9 +74,29 @@ h1:focus {
   }
 }
 
-/* Pages */
+/* Carousel */
 
-#pages,
-#pages a {
-  color: white;
+.carousel-item {
+  object-fit: cover;
+  overflow: hidden;
+}
+.carousel-item img {
+  height: 70vh;
+  object-fit: cover;
+  overflow: hidden;
+  object-position: center;
+  z-index: -1;
+}
+.carousel-item, .carousel {
+  height: 70vh;
+}
+
+
+/* Footer */
+footer a {
+  color: #2068A8;
+}
+
+footer li {
+  text-align: center;
 }
