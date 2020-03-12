@@ -79,6 +79,7 @@
 .carousel-item {
   object-fit: cover;
   overflow: hidden;
+  background-color: white;
 }
 .carousel-item img {
   height: 70vh;
@@ -94,6 +95,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: black;
+}
+.carousel-caption {
+  background-color: lightgray;
+  color: black;
+  /* opacity: 0.5; */
+}
+.carousel-caption h5 {
+  font-weight: bold;
+  /* opacity: 1; */
+}
+.carousel-caption p {
+  font-weight: bold;
 }
 
 /* Footer */
