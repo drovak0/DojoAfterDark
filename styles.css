@@ -90,7 +90,11 @@
 .carousel-item, .carousel {
   height: 70vh;
 }
-
+#carousel-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 /* Footer */
 footer a {
