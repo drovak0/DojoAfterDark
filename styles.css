@@ -97,18 +97,17 @@
   justify-content: center;
   background-color: black;
 }
+
 .carousel-caption {
-  background-color: lightgray;
+  background-color: rgba(211, 211, 211, 0.75);
   color: black;
-  /* opacity: 0.5; */
+  width: 25%;
+  margin:auto;
 }
-.carousel-caption h5 {
-  font-weight: bold;
-  /* opacity: 1; */
-}
-.carousel-caption p {
+.carousel-caption p, .carousel-caption h5 {
   font-weight: bold;
 }
+
 
 /* Footer */
 footer a {
