@@ -50,7 +50,8 @@
 - Create a new local branch with the following convention `git checkout -b {{first_name}}-{{last_name}}` (replace the contents of `{{}}` including the brackets)
 - Create your folder in the project folder using the same convention `{{first_name}}-{{last_name}}`
 - Create an `index.html` and a `styles.css` in your folder (optionaly a js file)
-- Add a link `<a>` to your folder path on the homepage
+- In the top-level index.html, add a link `<a>` to your folder path in the footer section
+- In the same file, in head/script, add a new object to 'sites' with your folder path, name, and description (Note: this step may change if JavaScript is refactored out of index.html)
 - Stage your changes `git add .`
 - Commit your changes `git commit -m "{{commit message}}"`
 - Request to be a contributor (ask CBaut to add you to the project by sending your github username)
